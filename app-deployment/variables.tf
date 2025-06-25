@@ -1,28 +1,28 @@
 variable "instance_type" {
-    description = "Value for Instance type"
-    default = "t2.micro"
+  description = "Value for Instance type"
+  default     = "t2.micro"
 }
 
 variable "ami_id" {
-    description = "Value for ami-id"
+  description = "Value for ami-id"
 }
 
 variable "key_name" {
-    description = "Value for Key name"
+  description = "Value for Key name"
 }
 
 variable "sg-name" {
-    description = "Name for Security group"
+  description = "Name for Security group"
 }
 
 variable "vpc-cidr" {
-    description = "Value for cidr"
-    default = "10.0.0.0/16"
+  description = "Value for cidr"
+  default     = "10.0.0.0/16"
 }
 
 variable "subnet_az" {
-    description = "Value for Availabilty zone of subnet"
+  description = "Value for Availabilty zone of subnet"
 }
 variable "region" {
-    description = "Value for the default region"
+  description = "Value for the default region"
 }
